@@ -1,0 +1,33 @@
+# IDE-specific files
+.classpath
+.project
+.settings/
+.vscode/
+.mvn/
+.cursor/
+.idea/
+*.iml
+
+# Allure report results
+allure-results/
+
+# Config files (contain local paths and credentials)
+src/main/java/Resources/
+
+# Logs
+logging.txt
+logs*
+
+# Test output
+test-output/
+/build/
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+target/
+
+# App binaries
+/*.apk
+/*.ipa
+/*.app

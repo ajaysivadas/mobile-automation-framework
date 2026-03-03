@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "Https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Scenarios">
+
+<listeners>
+    <listener class-name="AppAutomation.Listener.TestListener"/>
+</listeners>
+
+	<test name="Login Screen Test">
+		<classes>
+	      <class name="AppAutomation.Login.LoginScreenTest"/>
+	    </classes>
+	</test>
+
+</suite>
